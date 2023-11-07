@@ -607,13 +607,21 @@ a {
         padding-bottom: 64px;
     }
 
-
-
-    .footer_box_one, .footer_box_two, .footer_box_three {
+    .footer_box_one {
+        order: 1;
         width: 100%;
     }
 
- 
+    .footer_box_two {
+
+        width: 100%;
+    }
+
+    .footer_box_three {
+        order: 2;
+        width: 100%;
+    }
+
     .footer_title, .footer_site {
         text-align: center;
     }
