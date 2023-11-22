@@ -128,6 +128,8 @@ a {
 }
 
 
+
+
 .midle_content {
     display: inline-flex;
     justify-content: center;
@@ -341,6 +343,17 @@ a {
     align-items: flex-start;
     gap: 24px;
 }
+
+.logo_top:hover path,
+.play_but:hover path,
+.logo_footer:hover path,
+.img_tw:hover path, 
+.img_in:hover path,
+.img_play:hover path
+{
+    stroke: #216ae7;
+}
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
