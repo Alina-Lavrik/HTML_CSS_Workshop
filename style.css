@@ -344,10 +344,11 @@ a {
     gap: 24px;
 }
 
-.logo_top:hover path,
+
 .play_but:hover path,
+.logo_top:hover path,
 .logo_footer:hover path,
-.img_tw:hover path, 
+.img_tw:hover path,
 .img_in:hover path,
 .img_play:hover path
 {
